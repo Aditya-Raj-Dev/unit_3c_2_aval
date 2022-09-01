@@ -1,0 +1,25 @@
+#navbar{
+    display: flex;
+    gap:20px;
+    margin-left: 70%;
+    margin-bottom: 60px;
+}
+#items{
+    display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap:40px;
+ text-align: center;
+}
+#items img{
+    height: 200px;
+    width:200px;
+}
+#border{
+    border: 1px solid black;
+    height:400px;
+}
+#navbar h1:hover {
+color: blue;
+cursor: pointer;
+display:inline-block
+}
